@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.dell.spate">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -13,10 +14,18 @@
         android:allowBackup="true"
 
         android:icon="@drawable/penguin"
+=======
+    package="com.example.dell.finalhome">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+>>>>>>> 682df0f5cd1f6144f917046c9b8764282814630f
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -25,13 +34,29 @@
             android:value="AIzaSyAFuNGDnIiQeVHTXkmvk0UbXipNK-p-ivE" />
 
         <activity android:name=".MainActivity">
+=======
+        <activity android:name=".activities.LoginActivity">
+>>>>>>> 682df0f5cd1f6144f917046c9b8764282814630f
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".SplashScreen"></activity>
+=======
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UsersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Log"
+            android:label="@string/title_activity_log"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+>>>>>>> 682df0f5cd1f6144f917046c9b8764282814630f
     </application>
 
 </manifest>
